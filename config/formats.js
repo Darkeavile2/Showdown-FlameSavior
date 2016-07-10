@@ -2118,12 +2118,12 @@ exports.Formats = [
 		ruleset: ['Pokemon', 'Same Type Clause', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
 	},
 
-	// Gold Server Tiers
+	// Tiers de Atlantis
 	///////////////////////////////////////////////////////////////////
 
 	{
-		name: "Gold Battle",
-		section: "Gold Server Tiers",
+		name: "Atlantis Battle",
+		section: "Tiers de Atlantis",
 		desc: ["&bullet; Only Gold Pokemon are allowed!  Do <code>/goldbattle</code> to see the list."],
 
 		onValidateSet: function (set) {
@@ -2136,7 +2136,7 @@ exports.Formats = [
 	},
 	{
 		name: "Alpha Tier",
-		section: "Gold Server Tiers",
+		section: "Tiers de Atlantis",
 		desc: ["&bullet; The first step to Gold's tiering process, information about it can be found <a href=\"http://goldservers.info/forums/showthread.php?tid=9\">here</a>."],
 
 		ruleset: ['Pokemon', 'Standard', 'Swagger Clause', 'Team Preview', 'Mega Rayquaza Clause', 'Baton Pass Clause'],
@@ -2144,7 +2144,7 @@ exports.Formats = [
 	},
 	{
 		name: "Beta Tier",
-		section: "Gold Server Tiers",
+		section: "Tiers de Atlantis",
 		desc: ["&bullet; The second step to Gold's tiering process, information about it can be found <a href=\"http://goldservers.info/forums/showthread.php?tid=9\">here</a>."],
 
 		ruleset: 'Alpha Tier',
@@ -2152,7 +2152,7 @@ exports.Formats = [
 	},
 	{
 		name: "Middle Cup PX",
-		section: "Gold Server Tiers",
+		section: "Tiers de Atlantis",
 		desc: [
 			'Middle Cup, but with a twist.',
 			'&bullet; <a href = "http://goldservers.info/forums/showthread.php?tid=11">MCPX Thread</a>',
